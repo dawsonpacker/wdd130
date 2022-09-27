@@ -4,7 +4,7 @@
 }
 nav a {
     text-align: center;
-    color: #3E9EE7
+    color: blue;
     text-decoration: none;
 }
 
@@ -32,11 +32,12 @@ main section {
 
 
 body {
-    background-color: #3E9EE7;
+    background-color: #DAF2FF;
 }
 
 header {
-    background-color: #DAF2FF;
+    background-color: #3E9EE7;
+    color: white
 }
 
 
@@ -63,10 +64,10 @@ header {
 
 
 footer {
-    background-color: #DAF2FF;
+    background-color: #3E9EE7;
 }
 footer h3 {
-    color: black;
+    color: white;
 }
 footer p{
     text-size: 1.2em;
@@ -80,7 +81,7 @@ footer a {
     text-decoration: none;
 }
 footer a:hover {
-    color: #3E9EE7;
+    color: #32DFC2;
 }
 
 

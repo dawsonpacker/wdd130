@@ -5,8 +5,8 @@ Fonts are separated by a & */
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto:wght@300&display=swap');
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #3E9EE7   ;
-  --secondary-color: #DAF2FF ;
+  --primary-color: #DAF2FF ;
+  --secondary-color: #3E9EE7 ;
   --accent1-color: #32DFC2;
   --accent2-color: white;
 
