@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@300&display=swap');
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Oswald;
+}
+p {
+    font-family: Roboto;
+}
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    color: black;
+    background-color: #00E8FC;
+
+}
+.logo, .icon {
+    width: 80px;
+    background-color: #00E8FC;
+}
+#logo_link{
+    padding-top: 5px; 
+    justify-self: center;
+    align-self: center;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    font-size: 23px;
+    background-color: #00E8FC;
+}
+nav a {
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    padding: 35px;
+}
+
+nav a:hover{
+    background-color: black;
+    color: #00E8FC;
+}
+
+#home-hero {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color: #586F7C;
+    color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 20px;
+
+
+}
+#school-projects-hero {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color: #586F7C;
+    color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 5px;
+    font-size: 22px;
+    
+}
+
+
+main {
+    text-align: center;
+    margin: 0px 125px; 
+    font-size: 20px;
+}
+
+main img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 35%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.group {
+    font-size: 20px;
+    margin-bottom: 75px;
+}
+
+.group-of-group {
+    font-size: 18px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.button-box {
+    text-align: center;
+    margin: 30px;
+}
+.view-project {
+    background-color: #586F7C;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+
+
+
+footer {
+    background-color: #00E8FC;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 23px;
+    color: black;
+    margin-top: 40px;
+}
+footer h3 {
+    color: white;
+}
+footer p{
+    font-size: 1.2em;
+}
+footer p a:hover {
+    text-decoration:underline;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+}
+footer a:hover {
+    background-color: black;
+    color: #00E8FC;
+}
